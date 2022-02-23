@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Logo from "@/components/sidebarContainer/Logo";
+import Logo from "@/components/dashboard/sidebarContainer/Logo";
 export default {
   name: "SidebarContainer",
   components: {Logo}
