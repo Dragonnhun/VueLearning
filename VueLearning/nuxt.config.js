@@ -18,6 +18,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/adminlte/adminlte.min.css',
+    '@/assets/fontawesome-free/css/all.min.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -33,9 +35,15 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt',
+    // Doc: https://bootstrap-vue.js.org/docs/
+    "bootstrap-vue/nuxt",
+    // Doc: https://github.com/nuxt-community/style-resources-module
   ],
+
+  bootstrapVue: {
+    bootstrapCSS: true,
+    bootstrapVueCSS: true
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

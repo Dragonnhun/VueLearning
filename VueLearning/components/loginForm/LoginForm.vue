@@ -1,9 +1,13 @@
 <template>
-  <Dashboard/>
+
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: "LoginForm"
 }
 </script>
+
+<style scoped>
+
+</style>
