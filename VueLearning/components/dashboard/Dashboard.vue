@@ -1,6 +1,6 @@
 <template>
-  <div class="sidebar-mini layout-fixed sidebar-collapse sidebar-height"
-       :class="darkMode ? 'dark-mode': ''"
+  <div class="sidebar-mini layout-fixed sidebar-height"
+       :class="[darkMode ? 'dark-mode': '', sideBarState ? 'sidebar-collapse' : '']"
   >
     <div class="wrapper">
       <NavBar/>
@@ -23,11 +23,13 @@ export default {
   components: {NavBar, Footer, SidebarContainer},
   computed: {
     darkMode() {
-      return this.$store.state.darkMode.dark_mode
+      return this.$store.state.userInterface.dark_mode
+    },
+    sideBarState() {
+      return this.$store.state.userInterface.show_sidebar
     }
   }
 }
-
 </script>
 
 <style scoped>
