@@ -2,7 +2,7 @@ export const state = () => ({
   dark_mode: false,
   show_sidebar: false,
   version: 0,
-  bannerText: ""
+  bannerText: "VueLearning"
 })
 
 export const mutations = {
@@ -15,5 +15,4 @@ export const mutations = {
   toggleShowSidebar(state) {
     state.show_sidebar = !state.show_sidebar
   }
-
 }

@@ -1,6 +1,6 @@
 <template>
   <footer class="main-footer">
-    <strong>Simple Chat</strong>
+    <strong>{{bannerText}}</strong>
     <div class="float-right d-none d-sm-inline-block">
       <b>Version:</b> {{ version }}
     </div>
@@ -13,7 +13,10 @@ export default {
   name: "Footer",
   computed: {
     version() {
-      return 1
+      return this.$store.state.userInterface.version
+    },
+    bannerText() {
+      return this.$store.state.userInterface.bannerText
     }
   }
 }

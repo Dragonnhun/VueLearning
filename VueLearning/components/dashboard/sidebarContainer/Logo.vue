@@ -3,13 +3,18 @@
   <a href="/" class="brand-link">
     <img src="~/assets/img/AdminLTELogo.png" alt="AdminLTE Logo"
          class="brand-image img-circle elevation-3 logo"/>
-    <span class="brand-text font-weight-light">VueLearning</span>
+    <span class="brand-text font-weight-light"> {{bannerText}}</span>
   </a>
 </template>
 
 <script>
 export default {
-  name: "Logo"
+  name: "Logo",
+  computed: {
+    bannerText() {
+      return this.$store.state.userInterface.bannerText
+    }
+  }
 }
 </script>
 
