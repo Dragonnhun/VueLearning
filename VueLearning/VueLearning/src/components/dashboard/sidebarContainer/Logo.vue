@@ -8,13 +8,15 @@
 </template>
 
 <script>
+import {mapGetters} from "vuex";
+
 export default {
   name: "Logo",
+
   computed: {
-    bannerText() {
-      return this.$store.state.userInterface.bannerText
-    }
+    ...mapGetters(["bannerText"])
   }
+
 }
 </script>
 

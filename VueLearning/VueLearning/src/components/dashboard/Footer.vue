@@ -8,16 +8,13 @@
 </template>
 
 <script>
+import {mapGetters} from "vuex";
 
 export default {
   name: "Footer",
+
   computed: {
-    version() {
-      return this.$store.state.userInterface.version
-    },
-    bannerText() {
-      return this.$store.state.userInterface.bannerText
-    }
+    ...mapGetters(["bannerText","version"])
   }
 }
 </script>

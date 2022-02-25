@@ -1,6 +1,6 @@
 <template>
   <!-- Navbar -->
-  <nav :class="dark_mode ? 'navbar-dark' : 'navbar-white navbar-light'"
+  <nav :class="darkMode ? 'navbar-dark' : 'navbar-white navbar-light'"
        class="main-header navbar navbar-expand"
   >
     <!-- Left navbarContainer links -->
@@ -26,7 +26,7 @@
            title="Switch to Dark mode"
            v-on:click="toggleDarkMode"
         >
-          <i :class="dark_mode ? 'fa-moon' : 'fa-sun'" class="fas"/>
+          <i :class="darkMode ? 'fa-moon' : 'fa-sun'" class="fas"/>
         </a>
       </li>
       <li class="nav-item">
@@ -43,7 +43,7 @@ export default {
   name: "NavBar",
 
   computed: {
-    ...mapGetters(["dark_mode","show_sidebar"])
+    ...mapGetters(["darkMode","showSidebar"])
   },
 
   methods: {
