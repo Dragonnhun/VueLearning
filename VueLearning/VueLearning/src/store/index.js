@@ -13,10 +13,10 @@ export const state = {
   roles: [],
   permissions: [],
   // ui states
-  dark_mode: false,
-  show_sidebar: false,
+  darkMode: false,
+  showSidebar: false,
   version: 0,
-  bannerText: ""
+  bannerText: "VueLearning"
 };
 
 const mutations = {
@@ -37,13 +37,13 @@ const mutations = {
     Vue.set(state.posts, post.id, post); // Use Vue.set() to update objects/arrays so mutations can be observed
   },
   darkMode(state, value) {
-    state.dark_mode = value
+    state.darkMode = value
   },
   toggleDarkMode(state) {
-    state.dark_mode = !state.dark_mode
+    state.darkMode = !state.darkMode
   },
   toggleShowSidebar(state) {
-    state.show_sidebar = !state.show_sidebar
+    state.showSidebar = !state.showSidebar
   }
 }
 
@@ -55,8 +55,8 @@ const getters = {
   userSession: (state) => state.userSession,
   userAttributes: (state) => state.userAttributes || [],
   // ui getters
-  dark_mode: state => state.dark_mode,
-  show_sidebar: state => state.show_sidebar,
+  darkMode: state => state.darkMode,
+  showSidebar: state => state.showSidebar,
   version: state => state.version,
   bannerText: state => state.bannerText,
 };

@@ -1,6 +1,6 @@
 <template>
   <div class="sidebar-mini layout-fixed sidebar-height"
-       :class="[dark_mode ? 'dark-mode': '', show_sidebar ? 'sidebar-collapse' : '']"
+       :class="[darkMode ? 'dark-mode': '', showSidebar ? 'sidebar-collapse' : '']"
   >
     <div class="wrapper">
       <NavBar/>
@@ -27,7 +27,7 @@ export default {
   },
 
   computed: {
-    ...mapGetters(["dark_mode","show_sidebar"])
+    ...mapGetters(["darkMode","showSidebar"])
   },
 }
 </script>
