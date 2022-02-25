@@ -1,69 +1,72 @@
-# VueLearning
+# vue-nuxt
 
-## Build Setup
+.NET 6.0 Vue Nuxt.js App Template
 
-```bash
-# install dependencies
-$ npm install
+[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/vue-nuxt.png)](http://vue-nuxt.web-templates.io/)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+> Browse [source code](https://github.com/NetCoreTemplates/vue-nuxt), view live demo [vue-nuxt.web-templates.io](http://vue-nuxt.web-templates.io) and install with [dotnet-new](https://docs.servicestack.net/dotnet-new):
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+    $ dotnet tool install -g x
 
-# generate static project
-$ npm run generate
-```
+    $ x new vue-nuxt ProjectName
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+Alternatively write new project files directly into an empty repository, using the Directory Name as the ProjectName:
 
-## Special Directories
+    $ git clone https://github.com/<User>/<ProjectName>.git
+    $ cd <ProjectName>
+    $ x new vue-nuxt
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+## Description
 
-### `assets`
+Nuxt is an opinionated structured framework for rapidly developing Web Applications utilizing developer-friendly [Vue Single Page Components](https://vuejs.org/v2/guide/single-file-components.html) and featuring Hot module replacement that together with [.NET Core's watched builds](https://docs.servicestack.net/templates-websites#watched-net-core-builds) provides an highly productive development experience.
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+Nuxt also enables the development of high-performance responsive Web Apps by employing advanced packaging techniques like automatic code spliting, link prefetching, SPA navigation of statically-generated cacheable assets and integrated support for ES6/7 transpilation and js/css bundling and minification.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+## Install Dependencies
 
-### `components`
+After creating your project go to your `ProjectName` folder and install your client App dependencies with:
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+    $ npm install
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+If your IDE doesn't automatically install your .NET NuGet Dependencies, you can manually install them with:
 
-### `layouts`
+    $ dotnet restore
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+## Dev Workflow
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+Start a [watched .NET Core build](https://docs.servicestack.net/templates-websites#watched-net-core-builds) in the background from the command-line with:
 
+    $ dotnet watch run
 
-### `pages`
+In a new terminal window start a watched nuxt dev server build with:
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+    $ npm run dev
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+Then open [http://localhost:3000](http://localhost:3000) in your browser to view your App served directly from Nuxt.js dev server and will proxy all Server requests to ServiceStack Server running on [https://localhost:5001](https://localhost:5001).
 
-### `plugins`
+## Update DTOs
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+Whilst Nuxt.js is a JavaScript (ES 6/7) App it still benefits from [ServiceStack's TypeScript Add Reference](https://docs.servicestack.net/typescript-add-servicestack-reference) where you can generate typed DTOs with the `dtos` npm script:
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+    $ npm run dtos
 
-### `static`
+This will update the Servers `dtos.ts` and generate its corresponding `dtos.js` which can be imported as normal classes as seen in 
+[gateway.js](https://github.com/NetCoreTemplates/vue-nuxt/blob/master/VueLearning/src/shared/gateway.js#L3). Despite the App not being built with TypeScript, developing using a "TypeScript-aware" IDE like VS Code will still be able to utilize the TypeScript classes in [@servicestack/client](https://github.com/ServiceStack/servicestack-client) and the generated `dtos.ts` to provide a rich, typed intelli-sense experience.
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
+## Generate Static Production Build
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
+Most of the time during development you'll be viewing your App through Nuxt.js dev server to take advantage of it's Hot Module Replacement for instant UI updates. At any time you can also view a production build of your App with:
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+    $ npm run build
 
-### `store`
+Which will generate an encapsulated production build of your App in `/wwwroot` which you can view running from your ServiceStack Server App directly:
 
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+ - https://localhost:5001
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+## Publishing App for Deployment
+
+To create a release client and server build of your App run:
+
+    $ npm run publish
+
+Which will publish your App to `bin/Release/net5/publish` which you can deploy as a standard .NET Core App.
