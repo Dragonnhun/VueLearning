@@ -1,11 +1,10 @@
 <template>
-  <span>Hello</span>
+
 </template>
 
 <script>
 export default {
-  name: "index",
-  layout: 'index'
+  name: "register"
 }
 </script>
 
