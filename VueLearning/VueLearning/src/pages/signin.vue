@@ -20,13 +20,8 @@
               </div>
             </div>
             <div class="input-group mb-3">
-              <v-input class="form-control" type="password" id="password" v-model="password" placeholder="Password" :responseStatus="responseStatus"
+              <v-input type="password" id="password" v-model="password" placeholder="Password" :responseStatus="responseStatus"
                        label="Password"  help="6 characters or more" />
-              <div class="input-group-append">
-                <div class="input-group-text">
-                  <span class="fas fa-lock"></span>
-                </div>
-              </div>
             </div>
             <div class="row">
               <div class="col-8">
