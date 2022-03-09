@@ -21,6 +21,60 @@
     <ProjectReference Include="..\VueLearning.ServiceModel\VueLearning.ServiceModel.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\.nojekyll" />
+    <_ContentIncludedByDefault Remove="wwwroot\200.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\about\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\admin\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\adminlte.min.css.map" />
+    <_ContentIncludedByDefault Remove="wwwroot\bootstrap-vue.css.map" />
+    <_ContentIncludedByDefault Remove="wwwroot\bootstrap.css.map" />
+    <_ContentIncludedByDefault Remove="wwwroot\favicon.ico" />
+    <_ContentIncludedByDefault Remove="wwwroot\forbidden\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\login\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\profile\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\README.md" />
+    <_ContentIncludedByDefault Remove="wwwroot\register\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\signin\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\signup\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\svg\svg-icons\home.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\svg\svg-icons\loading.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\svg\svg-icons\logo.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\template\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\018bccf.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\08208b9.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\1faa12e.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\29801fd.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\313679a.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\3e8cb61.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\4839494.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\5221f57.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\5e6db4a.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\5ed7884.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\7e2e162.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\83d9689.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\c86b38f.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\d046af0.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\fonts\fa-brands-400.329a95a.woff" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\fonts\fa-brands-400.89a52ae.eot" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\fonts\fa-brands-400.9e13849.ttf" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\fonts\fa-brands-400.c1210e5.woff2" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\fonts\fa-regular-400.1017bce.ttf" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\fonts\fa-regular-400.3672264.woff" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\fonts\fa-regular-400.4079ae2.eot" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\fonts\fa-regular-400.68c5af1.woff2" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\fonts\fa-solid-900.07c3313.ttf" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\fonts\fa-solid-900.ada6e6d.woff2" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\fonts\fa-solid-900.c6ec080.woff" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\fonts\fa-solid-900.efbd5d2.eot" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\img\AdminLTELogo.29bc070.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\img\fa-brands-400.216edb9.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\img\fa-regular-400.19e27d3.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\img\fa-solid-900.13de59f.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\_nuxt\LICENSES" />
+  </ItemGroup>
+
   <Target Name="OnFirstUse" BeforeTargets="Build" Condition=" !Exists('wwwroot\dist') ">
     <Exec Command="node --version" ContinueOnError="true"><Output TaskParameter="ExitCode" PropertyName="ErrorCode" /></Exec>
     <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
