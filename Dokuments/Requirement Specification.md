@@ -1,32 +1,33 @@
 
-<h4><ol>
+<ol>
 
 ## <li>Áttekintés.</li>
 
-
-### <p>  &nbsp; &nbsp; A projekt célja, hogy egy olyan Webes e-learning felületet valositsunk meg, ami könnyen kezelhető a felhasználok számára, illetve áttekinthető felülettel tálákozzon bármely látogató. 
+<h4>
+<p>A projekt célja, hogy egy olyan Webes e-learning felületet valositsunk meg, ami könnyen kezelhető a felhasználok számára, illetve áttekinthető felülettel tálákozzon bármely látogató. 
 </p>
 
-### <p>   &nbsp; &nbsp; Az e-learning felületen elérhető legyen minél több funkció, regisztráció, bejelentkezés, sötét/világos kinézet, kurzusok választása, áttekintése, tesztek választása és kitöltése is.   
+<p>Az e-learning felületen elérhető legyen minél több funkció, regisztráció, bejelentkezés, sötét/világos kinézet, kurzusok választása, áttekintése, tesztek választása és kitöltése is.   
 </p>
 
-### <p>&nbsp; &nbsp;A külömböző kurzusok teljesen függetlenek egymástól. A fő cél, hogy egyszerre több kurzus is élérhető legyen, bármely regisztrált felhasználó számára. 
-
+<p>A külömböző kurzusok teljesen függetlenek egymástól. A fő cél, hogy egyszerre több kurzus is élérhető legyen, bármely regisztrált felhasználó számára. 
+</h4>
 </P>
 
 
 ## <li>Jelenlegi helyzet.</li>
-### <p> &nbsp;&nbsp;A mai világban minden oktatási központnak megvan a saját e-learning portálja, melyek sokban nem különböznek egyszerű és egyértelmű kinézettel/funkciókkal rendelkeznek. 
-### <p>&nbsp;&nbsp;A mi felületünk ebben különbözik, szeretnénk egy kicsit modernebbé és egyben kicsit érdekesebbé tenni egy hétköznapi program működését és használatát. A plusz beépített funkciók választási lehetőséget adnak a felhasználó számára. Ha a felhasználó bejelentkezett az ehhez tartozó felületen illetve regisztrált, ha új felhasználóról van szó.
-### <p>&nbsp;&nbsp;Ezek után teljes egészében használhatja a felület minden funkcióját, megtekintheti, a hozza tartozó kurzusait és ahhoz tartozó leírásokat és teszteket is akár, és e mellet például: hogy épp milyen módban szeretné használni a felületet sötét illetve világos módban.
-
+<h3>
+<p>A mai világban minden oktatási központnak megvan a saját e-learning portálja, melyek sokban nem különböznek egyszerű és egyértelmű kinézettel/funkciókkal rendelkeznek. 
+<p>A mi felületünk ebben különbözik, szeretnénk egy kicsit modernebbé és egyben kicsit érdekesebbé tenni egy hétköznapi program működését és használatát. A plusz beépített funkciók választási lehetőséget adnak a felhasználó számára. Ha a felhasználó bejelentkezett az ehhez tartozó felületen illetve regisztrált, ha új felhasználóról van szó.
+<p>Ezek után teljes egészében használhatja a felület minden funkcióját, megtekintheti, a hozza tartozó kurzusait és ahhoz tartozó leírásokat és teszteket is akár, és e mellet például: hogy épp milyen módban szeretné használni a felületet sötét illetve világos módban.
+<h3>
 
 </p>
 
 ## <li>Vágyálom rendszer</li>
-### <p> &nbsp;&nbsp;A project célja, hogy egy olyan felületet valósítsunk, meg ami mind funkcionálisan és tartalmilag is segítse a felhasználót a tanulásban. A felület egy weboldal formájában fog működni, melyen a felhasználó be tud jelentkezni illetve regisztrálni is tud, ha szeretne. 
+<h3><p>A project célja, hogy egy olyan felületet valósítsunk, meg ami mind funkcionálisan és tartalmilag is segítse a felhasználót a tanulásban. A felület egy weboldal formájában fog működni, melyen a felhasználó be tud jelentkezni illetve regisztrálni is tud, ha szeretne. 
 ### <p>Természetesen bejelentkezés nélkül is látogatható az oldal viszont ilyen formában csak főoldal és egyéb információs lehetőségek elérhetők a felhasználó számára. De viszont ha a felhasználó bejelentkezik, akkor az oldal teljes működési opcióit tudja használni.   
-
+</h3>
 </p>
 
 ## <li>Funkcionális követelmények
