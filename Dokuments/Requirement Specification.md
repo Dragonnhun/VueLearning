@@ -4,7 +4,7 @@
 
 ## <li>Áttekintés.</li>
 
-<h4>
+
 <p>A projekt célja, hogy egy olyan Webes e-learning felületet valositsunk meg, ami könnyen kezelhető a felhasználok számára, illetve áttekinthető felülettel tálákozzon bármely látogató. 
 </p>
 
@@ -12,28 +12,28 @@
 </p>
 
 <p>A külömböző kurzusok teljesen függetlenek egymástól. A fő cél, hogy egyszerre több kurzus is élérhető legyen, bármely regisztrált felhasználó számára. 
-</h4>
+
 </P>
 
 
 ## <li>Jelenlegi helyzet.</li>
-<h4>
+
 <p>A mai világban minden oktatási központnak megvan a saját e-learning portálja, melyek sokban nem különböznek egyszerű és egyértelmű kinézettel/funkciókkal rendelkeznek. 
 <p>A mi felületünk ebben különbözik, szeretnénk egy kicsit modernebbé és egyben kicsit érdekesebbé tenni egy hétköznapi program működését és használatát. A plusz beépített funkciók választási lehetőséget adnak a felhasználó számára. Ha a felhasználó bejelentkezett az ehhez tartozó felületen illetve regisztrált, ha új felhasználóról van szó.
 <p>Ezek után teljes egészében használhatja a felület minden funkcióját, megtekintheti, a hozza tartozó kurzusait és ahhoz tartozó leírásokat és teszteket is akár, és e mellet például: hogy épp milyen módban szeretné használni a felületet sötét illetve világos módban.
-<h4>
+
 
 </p>
 
 ## <li>Vágyálom rendszer</li>
-<h4><p>A project célja, hogy egy olyan felületet valósítsunk, meg ami mind funkcionálisan és tartalmilag is segítse a felhasználót a tanulásban. A felület egy weboldal formájában fog működni, melyen a felhasználó be tud jelentkezni illetve regisztrálni is tud, ha szeretne. 
+<p>A project célja, hogy egy olyan felületet valósítsunk, meg ami mind funkcionálisan és tartalmilag is segítse a felhasználót a tanulásban. A felület egy weboldal formájában fog működni, melyen a felhasználó be tud jelentkezni illetve regisztrálni is tud, ha szeretne. 
 <p>Természetesen bejelentkezés nélkül is látogatható az oldal viszont ilyen formában csak főoldal és egyéb információs lehetőségek elérhetők a felhasználó számára. De viszont ha a felhasználó bejelentkezik, akkor az oldal teljes működési opcióit tudja használni.   
-</h4>
+
 </p>
 
 ## <li>Funkcionális követelmények
 <ol>
-<h4><li> Regisztráció
+<li> Regisztráció
 <ul>
  <li> Ezen a felületen tud regisztrálni a felhasználó.</li>
 </ul>
@@ -59,8 +59,7 @@
  <li> Admin: Ezzel a hatáskörrel mindent lehet szerkeszteni, módosítani, törölni. Illetve egyedi beállítási lehetőséggel is rendelkezik </li>
  <li> Vendég: Megtekintheti az oldalt használhat néhány funkciót illetve elolvashatja az alapértelmezett információs részeket.</li>
  <li> Felhasználó: Meg tudja nyitni a saját kurzusokat illetve a bennük szereplő információkat, és teszteket is megtekintheti illetve ki is töltheti őket majd áttekintheti a megoldásokat és eredményket.</li>
-</h4>
-</li>
+
 </ol>
 
 
@@ -95,7 +94,7 @@
         6.5 Tesztek eredményének megtekintése % illetve pont arányban. 
 
 ## <li>Követelmény lista</li>
-<h4>
+
 
 |Modul|ID|Mév|Kifejtés|
 |--------------------|-------------|---------|---------------|
@@ -107,10 +106,10 @@
 |Felület|K6|Tesztek|Itt lehet a megadott teszteket kitölteni illetve ellenőrizni.|
 |Felület|K7|Tesztek megoldásainak áttekintése|Ezen a részen tekinthetjük meg a teszt eredményet % illetve pont formájában.|
 |Felület|K8|Dokumentumok feltöltése/letöltése| Ezt a folyamatot csak akkor lehet használni ha a kurzus tulajdonosa engedélyezi és láthatová teszi.|
-</h4>
+
 
 ## <li>Fogalom szótár</li>
-<h4>
+
 <ul>
 <li><strong>[Adminisztráció]</strong>: Olyan felület ahol a felhasználó valamilyen adatát megkell hogy adja.</li>
 
@@ -131,6 +130,5 @@
 <li> <strong>[Web-service]</strong>: Különböző programnyelveken írt és különböző platformokon futó szoftveralkalmazások interneten keresztül történő adatcseréjére használt webszolgáltatások.
 
 <li> <strong>[Multiplatform]</strong>: Több környezetben futtatható alkalmazás.
-</h4>
 </ul>
 </ol>
