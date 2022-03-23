@@ -12,9 +12,9 @@ namespace VueLearning.ServiceInterface
             return new HelloResponse { Result = $"Hello, {request.Name}!" };
         }
 
-        public object Any(GetLinks request) => new GetLinksResponse 
+        public object Any(GetLinks request) => new GetLinksResponse
         {
-            Results = new Dictionary<string, string> 
+            Results = new Dictionary<string, string>
             {
                 {"servicestack.net", "https://servicestack.net"},
                 {"StackOverflow", "http://stackoverflow.com/search?q=servicestack"},
