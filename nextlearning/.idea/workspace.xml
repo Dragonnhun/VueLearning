@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b678efcd-c809-4b02-8442-c0739b006495" name="Changes" comment="Redux added">
-      <change afterPath="$PROJECT_DIR$/jest.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/hooks.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/counter/Counter.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/counter/Counter.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/counter/Counter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/counter/counterAPI.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/counter/counterSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/darkMode/darkModeSlice.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/counter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.tsx.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Home.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/darkMode/darkMode.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/dashboard/sideBar/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/dashboard/sideBar/SideBarContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/interface/interfaceSlice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/interface/toggleSideBarBtn.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/darkMode/darkModeSlice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/darkMode/darkModeSlice.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/home/nopizza/git/no-php/nextlearning/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/nopizza/git/no-php/nextlearning/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/styles" />
@@ -71,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651946223878</updated>
-      <workItem from="1651946227253" duration="5524000" />
+      <workItem from="1651946227253" duration="7890000" />
+      <workItem from="1651954251479" duration="2709000" />
     </task>
     <task id="LOCAL-00001" summary="Redux added">
       <created>1651949365075</created>
@@ -80,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651949365075</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Redux added">
+      <created>1651951879557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651951879557</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +97,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Redux added" />
     <option name="LAST_COMMIT_MESSAGE" value="Redux added" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
