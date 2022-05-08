@@ -10,7 +10,7 @@ export interface InterfaceState {
 }
 
 const initialState: InterfaceState = {
-    bannerText: "",
+    bannerText: "TEXT",
     version: 0,
     sidebarIsOpened: false,
     status: 'idle'
@@ -30,5 +30,7 @@ export const interfaceSlice = createSlice({
 export const {toggleSideBar} = interfaceSlice.actions
 
 export const selectToggleSideBar = (state: AppState) => state.interface.sidebarIsOpened
+export const selectBannerText = (state: AppState) => state.interface.bannerText
+export const selectVersion = (state: AppState) => state.interface.version
 
 export default interfaceSlice.reducer
