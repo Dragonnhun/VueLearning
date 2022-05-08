@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b678efcd-c809-4b02-8442-c0739b006495" name="Changes" comment="Redux added">
+    <list default="true" id="b678efcd-c809-4b02-8442-c0739b006495" name="Changes" comment="Base components added">
+      <change afterPath="$PROJECT_DIR$/src/features/userData/userDataApi.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/userData/userDataSlice.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/dashboard/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/dashboard/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/dashboard/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/dashboard/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/dashboard/sideBar/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/dashboard/sideBar/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/dashboard/sideBar/SideBarContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/dashboard/sideBar/SideBarContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/interface/interfaceSlice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/interface/interfaceSlice.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/interface/toggleSideBarBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/interface/toggleSideBarBtn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
       <updated>1651946223878</updated>
       <workItem from="1651946227253" duration="7890000" />
       <workItem from="1651954251479" duration="2870000" />
-      <workItem from="1652033220842" duration="2942000" />
+      <workItem from="1652033220842" duration="5285000" />
     </task>
     <task id="LOCAL-00001" summary="Redux added">
       <created>1651949365075</created>
@@ -81,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651951879557</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Base components added">
+      <created>1652036414342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652036414342</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +102,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Redux added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redux added" />
+    <MESSAGE value="Base components added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base components added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
