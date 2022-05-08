@@ -1,4 +1,5 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
+import {AppState} from "../../app/store";
 
 export interface UserDataState {
     roles: string[]
@@ -56,4 +57,8 @@ export const userDataSlice = createSlice({
             })
     }
 })
+
+export const selectUsername = (state: AppState) => state.userData.username
+
+export default userDataSlice.reducer
 
