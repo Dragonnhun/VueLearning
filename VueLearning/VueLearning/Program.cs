@@ -1,4 +1,13 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+using VueLearning.ServiceInterface;
+using VueLearning.ServiceModel;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.Configure<DatabaseSettings>(
+    builder.Configuration.GetSection("Database"));
+
+builder.Services.AddSingleton<UsersService>();
 
 var app = builder.Build();
 
