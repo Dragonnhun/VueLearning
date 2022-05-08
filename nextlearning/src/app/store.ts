@@ -3,13 +3,15 @@ import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit'
 import counterReducer from '../features/counter/counterSlice'
 import darkModeReducer from '../features/darkMode/darkModeSlice'
 import interfaceReducer from '../features/interface/interfaceSlice'
+import userDataReducer from '../features/userData/userDataSlice'
 
 export function makeStore() {
   return configureStore({
     reducer: {
       counter: counterReducer,
       darkMode: darkModeReducer,
-      interface: interfaceReducer
+      interface: interfaceReducer,
+      userData: userDataReducer
     },
   })
 }

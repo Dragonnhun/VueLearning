@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b678efcd-c809-4b02-8442-c0739b006495" name="Changes" comment="Redux added">
-      <change afterPath="$PROJECT_DIR$/src/features/darkMode/darkMode.tsx" afterDir="false" />
+    <list default="true" id="b678efcd-c809-4b02-8442-c0739b006495" name="Changes" comment="user data slice">
+í      <change afterPath="$PROJECT_DIR$/src/features/darkMode/darkMode.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/features/dashboard/sideBar/Logo.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/features/dashboard/sideBar/SideBarContainer.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/features/interface/interfaceSlice.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/features/interface/toggleSideBarBtn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/darkMode/darkModeSlice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/darkMode/darkModeSlice.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651951879557</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Base components added">
+      <created>1652036414342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652036414342</updated>
+    </task>
+    <task id="LOCAL-00004" summary="user data slice">
+      <created>1652038602343</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652038602344</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +107,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Redux added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redux added" />
+    <MESSAGE value="Base components added" />
+    <MESSAGE value="user data slice" />
+    <option name="LAST_COMMIT_MESSAGE" value="user data slice" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
