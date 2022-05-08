@@ -1,39 +1,34 @@
 
 <ol>
 
-
 ## <li>Áttekintés.</li>
 
-<h4>
-<p>A projekt célja, hogy egy olyan Webes e-learning felületet valositsunk meg, ami könnyen kezelhető a felhasználok számára, illetve áttekinthető felülettel tálákozzon bármely látogató. 
+<p>A projekt célja, hogy egy olyan Webes VueLearning felületet valositsunk meg, ami könnyen kezelhető a felhasználok számára, illetve áttekinthető felülettel tálákozzon bármely látogató. 
 </p>
 
-<p>Az e-learning felületen elérhető legyen minél több funkció, regisztráció, bejelentkezés, sötét/világos kinézet, kurzusok választása, áttekintése, tesztek választása és kitöltése is.   
+<p>Az VueLearning felületen elérhető legyen minél több funkció, regisztráció, bejelentkezés, sötét/világos kinézet, kurzusok választása, áttekintése, tesztek választása és kitöltése is.   
 </p>
 
 <p>A külömböző kurzusok teljesen függetlenek egymástól. A fő cél, hogy egyszerre több kurzus is élérhető legyen, bármely regisztrált felhasználó számára. 
-</h4>
 </P>
 
 
 ## <li>Jelenlegi helyzet.</li>
-<h4>
-<p>A mai világban minden oktatási központnak megvan a saját e-learning portálja, melyek sokban nem különböznek egyszerű és egyértelmű kinézettel/funkciókkal rendelkeznek. 
+<p>A mai világban minden oktatási központnak megvan a saját VueLearning portálja, melyek sokban nem különböznek egyszerű és egyértelmű kinézettel/funkciókkal rendelkeznek. 
 <p>A mi felületünk ebben különbözik, szeretnénk egy kicsit modernebbé és egyben kicsit érdekesebbé tenni egy hétköznapi program működését és használatát. A plusz beépített funkciók választási lehetőséget adnak a felhasználó számára. Ha a felhasználó bejelentkezett az ehhez tartozó felületen illetve regisztrált, ha új felhasználóról van szó.
 <p>Ezek után teljes egészében használhatja a felület minden funkcióját, megtekintheti, a hozza tartozó kurzusait és ahhoz tartozó leírásokat és teszteket is akár, és e mellet például: hogy épp milyen módban szeretné használni a felületet sötét illetve világos módban.
-<h4>
 
 </p>
 
 ## <li>Vágyálom rendszer</li>
-<h4><p>A project célja, hogy egy olyan felületet valósítsunk, meg ami mind funkcionálisan és tartalmilag is segítse a felhasználót a tanulásban. A felület egy weboldal formájában fog működni, melyen a felhasználó be tud jelentkezni illetve regisztrálni is tud, ha szeretne. 
+<p>A project célja, hogy egy olyan felületet valósítsunk, meg ami mind funkcionálisan és tartalmilag is segítse a felhasználót a tanulásban. A felület egy weboldal formájában fog működni, melyen a felhasználó be tud jelentkezni illetve regisztrálni is tud, ha szeretne. 
 <p>Természetesen bejelentkezés nélkül is látogatható az oldal viszont ilyen formában csak főoldal és egyéb információs lehetőségek elérhetők a felhasználó számára. De viszont ha a felhasználó bejelentkezik, akkor az oldal teljes működési opcióit tudja használni.   
-</h4>
 </p>
 
 ## <li>Funkcionális követelmények
+
 <ol>
-<h4><li> Regisztráció
+<li> Regisztráció
 <ul>
  <li> Ezen a felületen tud regisztrálni a felhasználó.</li>
 </ul>
@@ -59,9 +54,9 @@
  <li> Admin: Ezzel a hatáskörrel mindent lehet szerkeszteni, módosítani, törölni. Illetve egyedi beállítási lehetőséggel is rendelkezik </li>
  <li> Vendég: Megtekintheti az oldalt használhat néhány funkciót illetve elolvashatja az alapértelmezett információs részeket.</li>
  <li> Felhasználó: Meg tudja nyitni a saját kurzusokat illetve a bennük szereplő információkat, és teszteket is megtekintheti illetve ki is töltheti őket majd áttekintheti a megoldásokat és eredményket.</li>
-</h4>
-</li>
+
 </ol>
+
 
 
 ## <li>Jelenlegi üzleti folyamatok modelje</li>
@@ -95,7 +90,6 @@
         6.5 Tesztek eredményének megtekintése % illetve pont arányban. 
 
 ## <li>Követelmény lista</li>
-<h4>
 
 |Modul|ID|Mév|Kifejtés|
 |--------------------|-------------|---------|---------------|
@@ -107,30 +101,28 @@
 |Felület|K6|Tesztek|Itt lehet a megadott teszteket kitölteni illetve ellenőrizni.|
 |Felület|K7|Tesztek megoldásainak áttekintése|Ezen a részen tekinthetjük meg a teszt eredményet % illetve pont formájában.|
 |Felület|K8|Dokumentumok feltöltése/letöltése| Ezt a folyamatot csak akkor lehet használni ha a kurzus tulajdonosa engedélyezi és láthatová teszi.|
-</h4>
 
 ## <li>Fogalom szótár</li>
-<h4>
+
 <ul>
 <li><strong>[Adminisztráció]</strong>: Olyan felület ahol a felhasználó valamilyen adatát megkell hogy adja.</li>
 
-<li> <strong>[Felület]</strong>: Olyan oldal, amellyel a felhasználó képes interaktiválni és megváltoztatni.
+<li> <strong>[Felület]</strong>: Olyan oldal, amellyel a felhasználó képes interaktiválni és megváltoztatni.</li>
 
-<li> <strong>[HTML, CSS, JAVASCRIPT, SQL]</strong>: Programozási nyelvek, amelyben képesek vagyunk elkészíteni a programot.
+<li> <strong>[HTML, CSS, JAVASCRIPT, SQL]</strong>: Programozási nyelvek, amelyben képesek vagyunk elkészíteni a programot.</li>
 
-<li> <strong>[Modul]</strong>: Ez alapján különböztetjük meg, hogy milyen fajtáú egy követelmény.
+<li> <strong>[Modul]</strong>: Ez alapján különböztetjük meg, hogy milyen fajtáú egy követelmény.</li>
 
-<li> <strong>[ID]</strong>: Az adott követelményhez tartozó azonosító, amivel könnyen megtalákható.
+<li> <strong>[ID]</strong>: Az adott követelményhez tartozó azonosító, amivel könnyen megtalákható.</li>
 
-<li> <strong>[BUG]</strong>: Fejlesztési hiba ami által a program nem a várt eredményt ad vissza.
+<li> <strong>[BUG]</strong>: Fejlesztési hiba ami által a program nem a várt eredményt ad vissza.</li>
 
-<li> <strong>[Backend]</strong>: A kiszolgáló, ahonnan az alkalmazást el lehet érni.
+<li> <strong>[Backend]</strong>: A kiszolgáló, ahonnan az alkalmazást el lehet érni.</li>
 
-<li> <strong>[Frontend]</strong>: Egy réteg ami feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.
+<li> <strong>[Frontend]</strong>: Egy réteg ami feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.</li>
 
-<li> <strong>[Web-service]</strong>: Különböző programnyelveken írt és különböző platformokon futó szoftveralkalmazások interneten keresztül történő adatcseréjére használt webszolgáltatások.
+<li> <strong>[Web-service]</strong>: Különböző programnyelveken írt és különböző platformokon futó szoftveralkalmazások interneten keresztül történő adatcseréjére használt webszolgáltatások.</li>
 
-<li> <strong>[Multiplatform]</strong>: Több környezetben futtatható alkalmazás.
-</h4>
+<li> <strong>[Multiplatform]</strong>: Több környezetben futtatható alkalmazás.</li>
 </ul>
 </ol>
