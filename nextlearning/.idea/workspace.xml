@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b678efcd-c809-4b02-8442-c0739b006495" name="Changes" comment="Redux added">
-      <change afterPath="$PROJECT_DIR$/src/features/darkMode/darkMode.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/dashboard/sideBar/Logo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/dashboard/sideBar/SideBarContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/interface/interfaceSlice.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/interface/toggleSideBarBtn.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/darkMode/darkModeSlice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/darkMode/darkModeSlice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/dashboard/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/dashboard/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/dashboard/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/dashboard/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/dashboard/sideBar/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/dashboard/sideBar/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/dashboard/sideBar/SideBarContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/dashboard/sideBar/SideBarContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/interface/interfaceSlice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/interface/interfaceSlice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/interface/toggleSideBarBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/interface/toggleSideBarBtn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="28qZkokqTbYIoeDZPsIMBm3EB43" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,7 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1651946223878</updated>
       <workItem from="1651946227253" duration="7890000" />
-      <workItem from="1651954251479" duration="2709000" />
+      <workItem from="1651954251479" duration="2870000" />
+      <workItem from="1652033220842" duration="2942000" />
     </task>
     <task id="LOCAL-00001" summary="Redux added">
       <created>1651949365075</created>
