@@ -88,6 +88,17 @@
 
 ## <li> Képernyőterv </li>
 
+### <p>Bejelentkező felület képernyőterve</p>
+<img  height="500" width="400" src="Login.png">
+
+### <p>Regisztrációs felület képernyőterve</p>
+<img  height="500" width="400" src="Register.png">
+
+### <p>Főoldal felület képernyőterve</p>
+<img   width="1000" src="Főoldal.png">
+
+
+
 ## <li> Forgatókönyv </li>
 
 <p> A felületet egyszerűen el lehet, érni egy linken keresztül illetve bármilyen böngészőben rá lehet keresni. A felület nem igényel útmutatót úgy terveztük meg, hogy minél egyszerűbb és átláthatóbb legyen a felhasználó számára. Amint a felhasználó rá ment a linkre illetve rá klikkelt a böngészőben meg talált címre, már az oldalon is találja, magát ahol bejelentkezhet és megtekintheti a saját kurzusait. Ha vendég a felhasználó, akkor csak az általános részt illet, a fő oldalt tudja megtekinteni. Ha bármilyen hibával találkozik, a felhasználó a megadott elérhetőségeken keresztül el tud érni minket, illetve tudja jelenteni a hibát, amit tapasztalt. 

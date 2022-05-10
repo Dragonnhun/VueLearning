@@ -49,7 +49,7 @@
 
 ## <li> Jelenlegi üzleti folyamatok modellje</li>
   
-  <img src="Folyamatmodell.">
+  <img src="JogModell.png">
 
 ## <li> Követelmények</li>
 <ul>
@@ -164,9 +164,16 @@ Az alkalmazás web platformra készül, ExprexJS szerveren, MongoDB adatbázissa
 
 
 ## <li>Implementációs terv</li>
+
+<p>A webes felület HTML, CSS  nyelven fog elkészülni. A technológiákat amennyire csak lehet, részekre bontva készítjük el. Az adatokat egy MondoDB adatbázis segítségével fogjuk tárolni. A weboldalt úgy készítjük el, hogy egyszerüen kezelhető és könnyen szerkeszthető legyen.</p>
+
 ## <li>Tesztterv</li>
 ## <li>Telepítési terv</li>
+<p>A felület használatához egy egyszerű böngészőre van szükség. Amint telepítve van a böngésző már is lehet futattni a weboldalt. Ennek eléréséhez csak az URL linkre van szükség illetve a böngésző címsorában is rá lehet keresni.</p>
+
 ## <li>Karbantartási terv</li>
+
+A látogatok bejelentés formájában tudják jelenteni a felmerűlő hibákat az adminok felé, amit a fejlesztői csapat fog kijavítani. A beérkezett hibákat az adminok üzenet formájában fogják látni, amit majd továbbítanak a fejlesztőknek. Hiba javítási ideje alatt ha a szerver nem futna a felhasználók értesülést kapnak róla, hogy bizonyos időre xy funkció, oldal nem fog működni.
 
 
 
