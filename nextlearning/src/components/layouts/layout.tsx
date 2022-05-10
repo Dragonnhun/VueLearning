@@ -5,6 +5,7 @@ import {useAppSelector} from "../../app/hooks";
 import {selectDarkMode} from "../../features/darkMode/darkModeSlice";
 import {selectToggleSideBar} from "../../features/interface/interfaceSlice";
 import {selectUserStatus} from "../../features/userData/userDataSlice";
+import ContentWrapper from "../contentWrapper/contetntWarper";
 
 
 const Layout = ({children}) => {
@@ -30,6 +31,7 @@ const Layout = ({children}) => {
                     <NavBar/>
                     <SideBarContainer/>
                     <div className="content-wrapper">
+                        <ContentWrapper/>
                         <main>{children}</main>
                     </div>
                     <Footer/>

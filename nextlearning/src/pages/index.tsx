@@ -6,7 +6,11 @@ import ArticlePreview from "../features/articleFeed/articlePreview";
 const IndexPage: NextPage = () => {
     return (
         <Fragment>
-            <ArticlePreview></ArticlePreview>
+            <section className="content">
+                <div className="container-fluid">
+                    <ArticlePreview></ArticlePreview>
+                </div>
+            </section>
         </Fragment>
     )
 }
