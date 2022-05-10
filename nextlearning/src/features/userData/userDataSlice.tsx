@@ -15,8 +15,8 @@ export interface UserDataState {
 const initialState: UserDataState = {
     roles: [],
     email: "",
-    username: "",
-    fullName: "",
+    username: "jon",
+    fullName: "John Dao",
     pictureId: "",
     profilePictureUrl: "",
     authToken: "",
@@ -59,6 +59,9 @@ export const userDataSlice = createSlice({
 })
 
 export const selectUsername = (state: AppState) => state.userData.username
+export const selectFullName = (state: AppState) => state.userData.fullName
+export const selectUserStatus = (state: AppState) => state.userData.status
+
 
 export default userDataSlice.reducer
 
