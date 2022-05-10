@@ -10,8 +10,8 @@ export interface InterfaceState {
 }
 
 const initialState: InterfaceState = {
-    bannerText: "TEXT",
-    version: 0,
+    bannerText: "NextLearning",
+    version: 0.01,
     sidebarIsOpened: false,
     status: 'idle'
 }
