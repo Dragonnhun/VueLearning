@@ -1,5 +1,4 @@
 import {Fragment} from "react";
-import {shallowEqual, useSelector} from "react-redux";
 import {useAppSelector} from "../../app/hooks";
 import {selectDarkMode} from "../darkMode/darkModeSlice";
 import ToggleSideBarBtn from "../interface/toggleSideBarBtn";
