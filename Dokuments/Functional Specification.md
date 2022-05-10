@@ -53,7 +53,7 @@
 
 ## <li> Jelenlegi üzleti folyamatok modellje</li>
   
-  <img src="Folyamatmodell.png">
+  <img src="./Pictures/Folyamatmodell.png">
 
 ## <li> Igényelt üzleti folyamatok modellje</li>
     6.1 Bejelentkezés
@@ -89,13 +89,13 @@
 ## <li> Képernyőterv </li>
 
 ### <p>Bejelentkező felület képernyőterve</p>
-<img  height="500" width="400" src="Login.png">
+<img  height="500" width="400" src="./Pictures/Login.png">
 
 ### <p>Regisztrációs felület képernyőterve</p>
-<img  height="500" width="400" src="Register.png">
+<img  height="500" width="400" src="./Pictures/Register.png">
 
 ### <p>Főoldal felület képernyőterve</p>
-<img   width="1000" src="Főoldal.png">
+<img   width="1000" src="./Pictures/Főoldal.png">
 
 
 

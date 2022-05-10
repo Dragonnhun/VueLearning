@@ -49,7 +49,7 @@
 
 ## <li> Jelenlegi üzleti folyamatok modellje</li>
   
-  <img src="JogModell.png">
+  <img src="./Pictures/JogModell.png">
 
 ## <li> Követelmények</li>
 <ul>
